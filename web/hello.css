@@ -1,6 +1,6 @@
 #instruTable{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	text-align: center;
+	text-align: right;
 	font-size: 20px;
 }
 #instruTable th{
@@ -13,6 +13,9 @@ a:hover {
 
 body {
 	background-color:#41aff4;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
 
 #introHeader{
@@ -60,10 +63,12 @@ body {
 #fullTable{
 	margin-top:150px;
 	margin-left:500px;
+	text-align: center;
 }
 
 #instrumentTable{
 	font-size: 40px;
+	margin-right: 500px;
 }
 
 
@@ -75,4 +80,46 @@ body {
 	position: absolute;
 	left: 1000px;
 	
+}
+
+div.gallery {
+    margin: 10px;
+	margin-top: 100px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#shoppingh1 {
+	text-align: center;
+}
+
+#viewCart{
+	float: right;
+	
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	float: right;
+}
+
+#viewHeader{
+	margin-left: 45%;
 }
