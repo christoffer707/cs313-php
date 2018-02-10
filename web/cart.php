@@ -30,8 +30,8 @@
 	 <div id="orderReview">
               <table id="table">
                 <tr>
-                  <td>Name</td>
-                  <td>Price</td>
+                  <td>array[0]</td>
+                  <td>array[1]</td>
                   <td id="remove">Remove</td>
                   <td id="total">Total</td>
                 </tr>
